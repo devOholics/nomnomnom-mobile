@@ -58,23 +58,23 @@ const InfoText = styled.Text`
 const db = [
   {
     name: "Richard Hendricks",
-    img: require("./assets/richard.jpeg"),
+    img: require("../assets/richard.jpeg"),
   },
   {
     name: "Erlich Bachman",
-    img: require("./assets/erlich.jpeg"),
+    img: require("../assets/erlich.jpeg"),
   },
   {
     name: "Monica Hall",
-    img: require("./assets/monica.jpeg"),
+    img: require("../assets/monica.jpeg"),
   },
   {
     name: "Jared Dunn",
-    img: require("./assets/jared.jpeg"),
+    img: require("../assets/jared.jpeg"),
   },
   {
     name: "Dinesh Chugtai",
-    img: require("./assets/dinesh.jpeg"),
+    img: require("../assets/dinesh.jpeg"),
   },
 ];
 
@@ -99,7 +99,9 @@ function Simple() {
           <TinderCard
             key={character.name}
             onSwipe={(dir) => swiped(dir, character.name)}
-            onCardLeftScreen={() => outOfFrame(character.name)}
+            onCardLeftScreen={() =>
+              outOfFrame(character.name)
+            }
           >
             <Card>
               <CardImage source={character.img}>
