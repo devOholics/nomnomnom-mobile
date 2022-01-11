@@ -1,10 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import {
-  ImageBackground,
-  StyleSheet,
-  Text,
-  View,
-} from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 import SwipeCards from "./components/SwipeCards";
 
 export default function App() {
