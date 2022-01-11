@@ -7,26 +7,16 @@ import {
 } from "react-native";
 import SwipeCards from "./components/SwipeCards";
 
-const background = {
-  uri: "./assets/nom-nom-nom-color.jpg",
-};
-
 export default function App() {
   return (
     <>
       <View style={styles.container}>
-        <ImageBackground
-          source={background}
-          resizeMode="cover"
-          style={styles.image}
-        >
-          <Text style={styles.content}>
-            What's up Woo-Sik, let's build this thing!!!!
-          </Text>
+        <Text style={styles.content}>
+          What's up Woo-Sik, let's build this thing!!!!
+        </Text>
 
-          <SwipeCards />
-          <StatusBar style="auto" />
-        </ImageBackground>
+        <SwipeCards />
+        <StatusBar style="auto" />
       </View>
     </>
   );
