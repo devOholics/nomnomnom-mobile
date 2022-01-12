@@ -1,7 +1,5 @@
 # Overview
 
-
-
 # Table of Contents
 
 - [About this project](#about)
@@ -48,7 +46,7 @@ nomnomnom is a fully rendered, interactive, native, mobile app that allows users
 - View the optimal layout depending on their device's screen size
 - See different data visuializations depending on the states for interactive elements
 - View the weather data by geolocation and by zipcode
-- 
+-
 - View the current state of the Fear & Greed index which is updated dynamically one time daily.
 
 </br>
@@ -113,14 +111,14 @@ Download the repo using git
 Navigate into the site's directory and install dependencies.
 
 ```shell
-cd nom-nom-nom
+cd nomnomnom-mobile
 yarn install
 ```
 
 Start the Server.
 
 ```shell
-echo start
+yarn start
 ```
 
 **Open the source code and start editing!**
