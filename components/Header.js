@@ -16,12 +16,12 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     marginTop: 50,
     justifyContent: 'center',
+    backgroundColor: 'yellowgreen',
   },
   image: {
-    width: 100,
+    width: 70,
     height: 100,
-    justifyContent: 'center',
-    alignContent: 'center',
+    marginRight: 10,
   },
-  title: { color: 'green', fontSize: 70, textAlign: 'center' },
+  title: { marginLeft: 10, color: 'green', fontSize: 70, textAlign: 'center' },
 });
