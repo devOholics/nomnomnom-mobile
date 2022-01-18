@@ -2,19 +2,21 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Header from './components/Header';
 import SwipeCards from './components/SwipeCards';
+import Landing from './screens/Landing';
 
 export default function App() {
   return (
     <>
-      <Header />
-      <View style={styles.container}>
+      {/* <Header /> */}
+      <Landing />
+      {/* <View style={styles.container}>
         <Text style={styles.content}>
           What's up Woo-Sik, let's build this thing!!!!
         </Text>
 
         <SwipeCards />
         <StatusBar style="auto" />
-      </View>
+      </View> */}
     </>
   );
 }
