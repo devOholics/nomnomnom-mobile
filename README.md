@@ -13,19 +13,17 @@
 
 # About the Project <a name="about"></a>
 
-nomnomnom is a fully rendered, interactive, native, mobile app that allows users to learn more about... This project was an exercise in:
+nomnomnom is a fully rendered, interactive, native, mobile app that allows users to learn more about food options within a certain radius. This project was an exercise in:
 
 - Mobile First Methodology
 - Pixel Perfect Design Implementation
-- Making API calls to 3 seperate sources for data
+- Creating a custom api with a restaurant model
 - Securely passing API keys to their sources
 - Rendering conditional styling to the user based upon user input
 - Proper use of useState and useEffect Hooks
-- CSS custom properties & CSS modules in React
 - Semantic naming conventions
 - Flexbox
-- CSS Grid
-- React.js
+- Firebase
 - React Native
 
 ## Home Page
@@ -45,9 +43,9 @@ nomnomnom is a fully rendered, interactive, native, mobile app that allows users
 
 - View the optimal layout depending on their device's screen size
 - See different data visuializations depending on the states for interactive elements
-- View the weather data by geolocation and by zipcode
--
-- View the current state of the Fear & Greed index which is updated dynamically one time daily.
+- View the restaurant data by geolocation and by cuisine.
+- Swipe left for no and right for yes when picking a restaurant
+- Create a user profile that contains my name, email address, favorite cuisine, and a radius for how for I'm willing to travel for food.
 
 </br>
 # Technologies <a name="technologies"></a>
@@ -65,13 +63,13 @@ nomnomnom is a fully rendered, interactive, native, mobile app that allows users
     <tr>
       <td>Frameworks & Libraries</td>
       <td>
-        <img alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB" />
+        <img alt="React Native" src="https://img.shields.io/badge/react-native%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB" />
         <img alt="React Router" src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/>
       </td>      
     <tr>
       <td>Design</td>
       <td>
-        <img alt="Sketch" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+        <img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
       </td>
     </tr>
     <tr>
